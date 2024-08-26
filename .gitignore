@@ -1,0 +1,2 @@
+#Avoid adding all the virtual environment files to my branch
+venv/
