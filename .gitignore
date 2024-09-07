@@ -1,6 +1,10 @@
 #Avoid adding all the virtual environment files to my branch
 venv/
 
+# Ignore pycache regenerative files
+venv/
+__pycache__/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -90,3 +94,5 @@ target/
 # IPython
 profile_default/
 ipython_config.py
+
+
